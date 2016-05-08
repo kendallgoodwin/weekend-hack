@@ -1,18 +1,35 @@
 .parallax-container {
   height: 768px;
+  background-color: #ffc024;
+  z-index: -1; position: relative;
+}
+
+.parallax-container-2 {
+	height: 768px;
+	background-color: #006699;
 }
 
 h1 {
 	text-align: center;
+	font-family: 'Abril Fatface', cursive;
 }
 
 h2 {
 	text-align: center;
 }
 
+h3 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color: #ff5c14;
+}
+
 img {
 	max-width: 100%;
 	border: 1px solid black;
+}
+
+.row-1 {
+	padding: 30px;
 }
 
 #skills {
@@ -27,153 +44,239 @@ img {
 	max-width: 100%;
 }
 
+.fancy_title {
+	margin-top: 150px;
+}
+
 h1 .char1 {
-/*	display: inline-block;
-	-webkit-transform: rotate(-20deg);
-	font-family: 'Oswald', sans-serif;
-	border: 1px solid black;
-	padding: 5px;
-	margin: 5px;*/
+	color: #003366;
 }
 
 h1 .char2 {
-/*	display: inline-block;
-	-webkit-transform: rotate(5deg);
-	font-family: 'Lobster', cursive;
-	border: 1px solid black;
-	padding: 5px;
-	margin: 5px;*/
+	color: #006699;
+	font-size: 90px;
 }
 
 h1 .char3 {
-/*	font-family: 'Poiret One', cursive;
-	border: 1px solid black;
-	padding: 5px;
-	margin: 5px;*/
+	color: #003366;
+	font-size: 90px;
 }
 
 h1 .char4 {
-/*	font-family: 'Pacifico', cursive;
-	border: 1px solid black;
-	padding: 5px;
-	margin: 5px;*/
+	color: #006699;
+	text-transform: uppercase;
 }
 
-.char5 {
-/*	font-family: 'Oswald', sans-serif;
-	border: 1px solid black;
-	padding: 5px;
-	margin: 5px;*/
+h1 .char5 {
+	color: #003366;
+	font-size: 90px;
 }
 
-.char6 {
-/*	font-family: 'Shadows Into Light', cursive;
-	border: 1px solid black;
-	padding: 5px;
-	margin: 5px;*/
+h1 .char6 {
+	color: #006699;
+	text-transform: uppercase;
 }
 
-.char7 {
-/*	font-family: 'Permanent Marker', cursive;
-	border: 1px solid black;
-	padding: 5px;
-	margin: 5px;*/
+h1 .char7 {
+	color: #003366;
+	text-transform: uppercase;
+}
+
+h1 .char9 {
+	color: #006699;
+}
+
+h1 .char10 {
+	color: #003366;
+	font-size: 90px;
+}
+
+h1 .char11 {
+	color: #006699;
+	font-size: 90px;
+}
+
+h1 .char12 {
+	color: #003366;
+	text-transform: uppercase;
+}
+
+h1 .char13 {
+	color: #006699;
+	font-size: 90px;
+}
+
+h1 .char14 {
+	color: #003366;
+	font-size: 90px;
+}
+
+h1 .char15 {
+	color: #006699;
+	font-size: 90px;
+}
+
+/*/////subtitle/////*/
+h2 .word1 {
+	font-size: 70px;
+	color: #c90086;
+	font-family: 'Abril Fatface', cursive;
+}
+
+h2 .word2 {
+	font-family: 'Meddon', cursive;
+	font-size: 70px;
+	color: 	#c90086;
+}
+
+h2 .word3 {
+	font-family: 'Meddon', cursive;
+	font-size: 70px;
+	color: 	#c90086;
 }
 
 /*/////Languages List/////*/
 
 p.languages .word1 {
+	color: #c90086;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.languages .word2 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.languages .word3 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.languages .word4 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.languages .word5 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 
 /*/////Frameworks List/////*/
 p.frameworks .word1 {
+	color: #c90086;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.frameworks .word2 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.frameworks .word3 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.frameworks .word4 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.frameworks .word5 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 
 /*/////Tools List/////*/
 p.tools .word1 {
+	color: #c90086;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.tools .word2 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.tools .word3 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.tools .word4 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.tools .word5 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 
 /*/////Other List/////*/
 p.other .word1 {
+	color: #c90086;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.other .word2 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.other .word3 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.other .word4 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.other .word5 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.other .word6 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 p.other .word7 {
-
+	font-family: 'Poiret One', cursive;
+	padding-left: 5px;
+	font-size: 20px;
 }
 
 
@@ -181,6 +284,8 @@ p.other .word7 {
 p.experience-1 .line1 {
 	display: block;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.experience-1 .line2 {
@@ -190,12 +295,15 @@ p.experience-1 .line2 {
 p.experience-2 .line1 {
 	display: block;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.experience-2 .line2 {
 	display: block;
 	text-transform: uppercase;
-}
+	font-family: 'Merriweather', serif;
+	font-weight: bold;}
 
 p.experience-2 .line3 {
 	display: block;
@@ -204,6 +312,8 @@ p.experience-2 .line3 {
 p.experience-3 .line1 {
 	display: block;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.experience-3 .line2 {
@@ -213,6 +323,8 @@ p.experience-3 .line2 {
 p.experience-4 .line1 {
 	display: block;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.experience-4 .line2 {
@@ -222,6 +334,8 @@ p.experience-4 .line2 {
 p.experience-5 .line1 {
 	display: block;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.experience-5 .line2 {
@@ -231,6 +345,8 @@ p.experience-5 .line2 {
 p.experience-6 .line1 {
 	display: block;
 	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 }
 
 p.experience-6 .line2 {

@@ -1,9 +1,9 @@
 
       $(document).ready(function() {
       	 $('.parallax').parallax();
-      	
+
         $(".fancy_title").lettering();
-        $(".something").lettering('words');
+        $(".subtitle").lettering('words');
 
         $(".languages").lettering('words');
         $(".frameworks").lettering('words');
