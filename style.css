@@ -1,0 +1,238 @@
+.parallax-container {
+  height: 768px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	border: 1px solid black;
+}
+
+#skills {
+	float: left;
+	display: inline-block;
+	max-width: 100%;
+}
+
+#experience {
+	float: right;
+	display: inline-block;
+	max-width: 100%;
+}
+
+h1 .char1 {
+/*	display: inline-block;
+	-webkit-transform: rotate(-20deg);
+	font-family: 'Oswald', sans-serif;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;*/
+}
+
+h1 .char2 {
+/*	display: inline-block;
+	-webkit-transform: rotate(5deg);
+	font-family: 'Lobster', cursive;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;*/
+}
+
+h1 .char3 {
+/*	font-family: 'Poiret One', cursive;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;*/
+}
+
+h1 .char4 {
+/*	font-family: 'Pacifico', cursive;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;*/
+}
+
+.char5 {
+/*	font-family: 'Oswald', sans-serif;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;*/
+}
+
+.char6 {
+/*	font-family: 'Shadows Into Light', cursive;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;*/
+}
+
+.char7 {
+/*	font-family: 'Permanent Marker', cursive;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;*/
+}
+
+/*/////Languages List/////*/
+
+p.languages .word1 {
+	text-transform: uppercase;
+}
+
+p.languages .word2 {
+
+}
+
+p.languages .word3 {
+
+}
+
+p.languages .word4 {
+
+}
+
+p.languages .word5 {
+
+}
+
+
+/*/////Frameworks List/////*/
+p.frameworks .word1 {
+	text-transform: uppercase;
+}
+
+p.frameworks .word2 {
+
+}
+
+p.frameworks .word3 {
+
+}
+
+p.frameworks .word4 {
+
+}
+
+p.frameworks .word5 {
+
+}
+
+
+/*/////Tools List/////*/
+p.tools .word1 {
+	text-transform: uppercase;
+}
+
+p.tools .word2 {
+
+}
+
+p.tools .word3 {
+
+}
+
+p.tools .word4 {
+
+}
+
+p.tools .word5 {
+
+}
+
+
+/*/////Other List/////*/
+p.other .word1 {
+	text-transform: uppercase;
+}
+
+p.other .word2 {
+
+}
+
+p.other .word3 {
+
+}
+
+p.other .word4 {
+
+}
+
+p.other .word5 {
+
+}
+
+p.other .word6 {
+
+}
+
+p.other .word7 {
+
+}
+
+
+/*/////Experience/////*/
+p.experience-1 .line1 {
+	display: block;
+	text-transform: uppercase;
+}
+
+p.experience-1 .line2 {
+	display: block;
+}
+
+p.experience-2 .line1 {
+	display: block;
+	text-transform: uppercase;
+}
+
+p.experience-2 .line2 {
+	display: block;
+	text-transform: uppercase;
+}
+
+p.experience-2 .line3 {
+	display: block;
+}
+
+p.experience-3 .line1 {
+	display: block;
+	text-transform: uppercase;
+}
+
+p.experience-3 .line2 {
+	display: block;
+}
+
+p.experience-4 .line1 {
+	display: block;
+	text-transform: uppercase;
+}
+
+p.experience-4 .line2 {
+	display: block;
+}
+
+p.experience-5 .line1 {
+	display: block;
+	text-transform: uppercase;
+}
+
+p.experience-5 .line2 {
+	display: block;
+}
+
+p.experience-6 .line1 {
+	display: block;
+	text-transform: uppercase;
+}
+
+p.experience-6 .line2 {
+	display: block;
+}
