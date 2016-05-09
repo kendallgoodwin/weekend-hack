@@ -34,22 +34,40 @@ img {
 	padding: 30px;
 }
 
+/*.kendall {
+	border-radius: 50%;
+}*/
+
+.quote {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.schpiel {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 #skills {
+/*	position: relative;*/
 	float: left;
-/*	display: inline-block;*/
+	display: inline-block;
 	max-width: 100%;
 	background-color: #006699;
 	padding: 15px;
 	border: 5px solid #c90086;
+/*	margin-left: 40px;*/
 }
 
 #experience {
+/*	position: relative;*/
 	float: right;
-/*	display: inline-block;*/
+	display: inline-block;
 	max-width: 100%;
 	background-color: #006699;
 	padding: 15px;
 	border: 5px solid #c90086;
+/*	margin-left: 40px;*/
 }
 
 #projects {
@@ -199,6 +217,35 @@ h1.quote .word11 {
 h1.quote .word12 {
 	color: #ff5c14
 }
+
+/*/////Schpiel/////*/
+h4.schpiel .line1 {
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #ff5c14;
+	font-style: italic;
+}
+
+h4.schpiel .line2 {
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+	color: #003366;
+}
+
+h4.schpiel .line3 {
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #c90086;
+}
+
+h4.schpiel .line4 {
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+	color: #003366;
+}
+
 
 
 /*/////Languages List/////*/

@@ -6,6 +6,7 @@
         $(".subtitle").lettering('words');
 
         $(".quote").lettering('words');
+        $(".schpiel").lettering('lines');
 
         $(".languages").lettering('words');
         $(".frameworks").lettering('words');
