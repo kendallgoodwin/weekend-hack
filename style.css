@@ -5,8 +5,8 @@
 }
 
 .parallax-container-2 {
-	height: 768px;
-	background-color: #006699;
+	height: 600px;
+/*	background-color: #006699;*/
 }
 
 h1 {
@@ -21,11 +21,13 @@ h2 {
 h3 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	color: #ff5c14;
+	background-color: #ffc024;
+	max-width: 100%;
 }
 
 img {
 	max-width: 100%;
-	border: 1px solid black;
+	border: 1px solid #c90086;
 }
 
 .row-1 {
@@ -34,18 +36,31 @@ img {
 
 #skills {
 	float: left;
-	display: inline-block;
+/*	display: inline-block;*/
 	max-width: 100%;
+	background-color: #006699;
+	padding: 15px;
+	border: 5px solid #c90086;
 }
 
 #experience {
 	float: right;
-	display: inline-block;
+/*	display: inline-block;*/
 	max-width: 100%;
+	background-color: #006699;
+	padding: 15px;
+	border: 5px solid #c90086;
+}
+
+#projects {
+	margin-top: 25px;
+	border: 5px solid #c90086;
+	float: right;
+	padding: 25px;
 }
 
 .fancy_title {
-	margin-top: 150px;
+	margin-top: 175px;
 }
 
 h1 .char1 {
@@ -135,6 +150,57 @@ h2 .word3 {
 	color: 	#c90086;
 }
 
+
+/*/////Quote/////*/
+h1.quote .word1 {
+	color: #003366;
+}
+
+h1.quote .word2 {
+	color: #c90086;
+}
+
+h1.quote .word3 {
+	color: #003366;
+}
+
+h1.quote .word4 {
+	color: #003366;
+}
+
+h1.quote .word5 {
+	color: #006699;
+}
+
+h1.quote .word6 {
+	color: #006699;
+}
+
+h1.quote .word7 {
+	color: #003366;
+}
+
+h1.quote .word8 {
+	color: #c90086;
+}
+
+h1.quote .word9 {
+	color: #003366;
+}
+
+h1.quote .word10 {
+	color: #003366;
+}
+
+h1.quote .word11 {
+	color: #ff5c14
+}
+
+h1.quote .word12 {
+	color: #ff5c14
+}
+
+
 /*/////Languages List/////*/
 
 p.languages .word1 {
@@ -145,27 +211,35 @@ p.languages .word1 {
 }
 
 p.languages .word2 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.languages .word3 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.languages .word4 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.languages .word5 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 
@@ -178,27 +252,35 @@ p.frameworks .word1 {
 }
 
 p.frameworks .word2 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.frameworks .word3 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.frameworks .word4 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.frameworks .word5 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 
@@ -211,27 +293,35 @@ p.tools .word1 {
 }
 
 p.tools .word2 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.tools .word3 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.tools .word4 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.tools .word5 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 
@@ -244,39 +334,51 @@ p.other .word1 {
 }
 
 p.other .word2 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.other .word3 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.other .word4 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.other .word5 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.other .word6 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 p.other .word7 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Pompiere', cursive;
 	padding-left: 5px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #003366;
 }
 
 
@@ -286,10 +388,15 @@ p.experience-1 .line1 {
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
+	color: #c90086;
 }
 
 p.experience-1 .line2 {
 	display: block;
+	font-family: 'Pompiere', cursive;
+	color: #003366;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 p.experience-2 .line1 {
@@ -297,16 +404,24 @@ p.experience-2 .line1 {
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
+	color: #c90086;
+	font-weight: bold;
 }
 
 p.experience-2 .line2 {
 	display: block;
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
-	font-weight: bold;}
+	font-weight: bold;
+	color: #c90086;
+}
 
 p.experience-2 .line3 {
 	display: block;
+	font-family: 'Pompiere', cursive;
+	color: #003366;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 p.experience-3 .line1 {
@@ -314,10 +429,15 @@ p.experience-3 .line1 {
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
+	color: #c90086;
 }
 
 p.experience-3 .line2 {
 	display: block;
+	font-family: 'Pompiere', cursive;
+	color: #003366;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 p.experience-4 .line1 {
@@ -325,10 +445,15 @@ p.experience-4 .line1 {
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
+	color: #c90086;
 }
 
 p.experience-4 .line2 {
 	display: block;
+	font-family: 'Pompiere', cursive;
+	color: #003366;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 p.experience-5 .line1 {
@@ -336,10 +461,15 @@ p.experience-5 .line1 {
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
+	color: #c90086;
 }
 
 p.experience-5 .line2 {
 	display: block;
+	font-family: 'Pompiere', cursive;
+	color: #003366;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 p.experience-6 .line1 {
@@ -347,8 +477,13 @@ p.experience-6 .line1 {
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
+	color: #c90086;
 }
 
 p.experience-6 .line2 {
 	display: block;
+	font-family: 'Pompiere', cursive;
+	color: #003366;
+	font-size: 20px;
+	font-weight: bold;
 }

@@ -5,6 +5,8 @@
         $(".fancy_title").lettering();
         $(".subtitle").lettering('words');
 
+        $(".quote").lettering('words');
+
         $(".languages").lettering('words');
         $(".frameworks").lettering('words');
         $(".tools").lettering('words');
@@ -18,4 +20,12 @@
         $(".experience-6").lettering('lines');
 
       });
+
+      // $('h1').mouseenter(function() {
+      // 	alert('hi');
+      // 	$(this).addClass('animated flip');
+      // }).mouseleave(function() {
+      // 	$(this).removeClass('animated flip')
+      // });
+
 
