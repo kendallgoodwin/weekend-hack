@@ -9,69 +9,160 @@
 	<link href='https://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'> -->
+	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="animate.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="parallax-container">
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"> kg </a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-4x fa-bars" aria-hidden="true"></i>
+</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="nav-item" href="#about">About</a></li>
+        <li><a class="nav-item" href="#projects">Portfolio</a></li>
+        <li><a class="nav-item" href="#contact">Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a class="nav-item" href="#about">About</a></li>
+        <li><a class="nav-item" href="#projects">Portfolio</a></li>
+        <li><a class="nav-item" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+
+
+<div class="parallax-container parallax-1">
 	<div class="col-xs-12 col-md-12">
 		<div class="parallax">
-			<h1 class="fancy_title animated infinite pulse">Kendall Goodwin</h1>
-			<h2 class="subtitle">a web developer</h2>
+			<h1 class="fancy_title animated pulse">Kendall Goodwin</h1>
+			<h2 class="subtitle">a front end developer</h2>
+<!-- 			<h2 class="subtitle">ux enthusiast</h2>
+			<h2 class="subtitle"></h2> -->	
 		</div>
 	</div>
 </div>
 
-<div class="container">
+<div class="container" id="about">
 	<div class="col-xs-12 col-s-12 col-md-8 col-md-offset-1">
 			<h1 class="quote">" Stories are the communal currency of humanity. " - Tahir Shah</h1>
-<!-- 			<img class="kendall" src="images/kendall.jpg"> -->
+			<!-- <img class="kendall" src="images/kendallgoodwin.jpg"> -->
 			<h4 class="schpiel">I have always been a lover of stories. <br> Stories are powerful because they help us to understand the world we live in and who we are inside of it. <br> As a web developer, I believe every website and application tells its own unique story, and that is where my passion lies: finding the story to be told and telling it through code. <br> I'm a proponent of bold design and a streamlined user experience, and always keep that at the forefront of my process in order to create a memorable and fun web experience. </h4>
 	</div>
 </div>
 
-<div class="parallax-container-2">
-		<div class="row-1">
-			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1" id="skills">
-				<h3>Skills</h3>
-					<p class="languages">
-					Languages HTML5 CSS3 Javascript Ruby
-					</p>
-					<p class="frameworks">
-					Frameworks Node.js Express Rails Angular
-					</p>
-					<p class="tools">
-					Database Tools SQL PostgreSQL MongoDB
-					<p class="other">
-					Other Git/GitHub jQuery AJAX JSON Heroku Bootstrap
-					</p>
-			</div>
-
-			<div class="col-xs-12 col-sm-6 col-md-5" id="experience">
-				<h3>Experience</h3>
-					<p class="experience-1">General Assembly </br>Full Stack Web Developer, March 2016-June 2016</p>
-					<p class="experience-2">Tom Douglas Restaurants, The Pink Door, <br> PF Chang's China Bistro<br> Lead Host, November 2012-March 2016</p>
-					<p class="experience-3">Alaska Airlines Magazine/Horizon Air Magazine<br> Editorial Intern, November 2012-February 2013</p>
-					<p class="experience-4">Northwest Administrators, Inc.<br> Document Review Specialist, June 2012-October 2012</p>
-					<p class="experience-5">Gerrits Family<br> Au Pair, October 2011-March 2012</p>
-					<p class="experience-6">Tacey Goss, P.S.<br> Receptionist/Legal Secretary, September 2010-September 2011</p>
-			</div>
+<div class="container-fluid section-2">
+	<div class="row-1">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="skills">
+			<h3>Skills</h3>
+				<p class="languages">
+				Languages HTML5 CSS3 Javascript jQuery
+				</p>
+				<p class="frameworks">
+				Frameworks Node.js Express Angular
+				</p>
+				<p class="tools">
+				Database Tools MongoDB SQL PostgreSQL 
+				<p class="other">
+				Other Git/GitHub AJAX JSON Heroku Bootstrap
+				</p>
 		</div>
-</div>
 
-<div class="container">
-	<div class="col-xs-10 col-xs-offset-1 col-md-12" id="projects">
-		<div class="projects">
-		<h3>Projects</h3>
-			<img src="images/memory.jpg">
-			<img src="images/by-its-cover.jpg">
-
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="experience">
+			<h3>Experience</h3>
+				<p class="experience-1">General Assembly </br>Front End Web Developer, March 2016-June 2016</p>
+				<p class="experience-2">Tom Douglas Restaurants, The Pink Door, <br> PF Chang's China Bistro<br> Lead Host, November 2012-March 2016</p>
+				<p class="experience-3">Alaska Airlines Magazine/Horizon Air Magazine<br> Editorial Intern, November 2012-February 2013</p>
+				<p class="experience-4">Northwest Administrators, Inc.<br> Document Review Specialist, June 2012-October 2012</p>
+				<p class="experience-5">Gerrits Family<br> Au Pair, October 2011-March 2012</p>
 		</div>
 	</div>
 </div>
+
+<div class="container">
+	<div class="resume-btns">
+<!-- 	<a class="btn btn-left" href="http://drive.google.com/file/d/0B-smky1Q8-OhdjBsNmpNa0czU0E/view?usp=sharing/" download>Download Resume</a> -->
+	<a class="btn btn-right" href="https://drive.google.com/file/d/0B-smky1Q8-OhdjBsNmpNa0czU0E/view?usp=sharing" target="_blank">View Resume</a>
+	</div>
+</div>
+
+
+<div class="container-fluid" id="projects">
+	<div class="col-xs-10 col-xs-offset-1 col-md-12">
+		<!-- <div class="projects"> -->
+			<h3 class="project-header">Projects</h3>
+				<div class="row">
+					<div class="col s8 offset-s2 m6 l6">
+					  <ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header"><img src="images/memory.png"></div>
+					      <div class="collapsible-body"><p class="proj-descrip"><h7>Memory: Literary Alcoholics Edition</h7><br>A classic matching game with a sad, boozy twist. Players click two cards per turn to reveal matches, and the player with the most pairs of literary alcoholics wins. This game was created using HTML5, CSS3, vanilla Javascript, and SweetAlerts.<br>
+								<a class="proj-links" href="http://kendallgoodwin.github.io/project-1" target="_blank"><i class="fa fa-lg fa-chrome" aria-hidden="true"></i>View Web Page</a>
+					      <a class="proj-links" href="http://github.com/kendallgoodwin/project-1" target="_blank"><i class="fa fa-lg fa-git-square" aria-hidden="true"></i>View code on GitHub</a>
+								</p></div>
+					    </li>
+					    </ul>
+					    <ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header"><img src="images/by-its-cover.jpg"></div>
+					      <div class="collapsible-body"><p class="proj-descrip"><h7>By Its Cover</h7><br>A Tinder-style application that allows users to browse book covers and swipe right to reveal more information, including plot description and average rating. This full-stack app was created using Express, Node.js, PostgreSQL, and jQuery, and utilizes the Google Books API.<br>
+								<a class="proj-links" href="https://abookbyitscover.herokuapp.com/" target="_blank"><i class="fa fa-lg fa-chrome" aria-hidden="true"></i>View Web Page</a>
+					      <a class="proj-links" href="https://github.com/kendallgoodwin/by-its-cover" target="_blank"><i class="fa fa-lg fa-git-square" aria-hidden="true"></i>View code on GitHub</a></p></div>
+					    </li>
+					  </ul>
+				  </div>
+
+				  <div class="col s10 offset-s1 m6 l6">
+					  <ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header"><img src="images/homeventory.png"></div>
+					      <div class="collapsible-body"><p class="proj-descrip"><h7>Homeventory</h7><br>A home inventory app that allows users to keep track of grocery and household items. Features include an item search, a favorites page for frequently bought items, and a list-only view of items needed. This responsive app was created as part of a group project at General Assembly using Ruby on Rails, PostgreSQL, bcrypt, Facebook OAuth, jQuery, and Bootstrap, and utilizes the Factual API.<br>
+								<a class="proj-links" href="https://homeventory.herokuapp.com/" target="_blank"><i class="fa fa-lg fa-chrome" aria-hidden="true"></i>View Web Page</a>
+					      <a class="proj-links" href="https://github.com/kendallgoodwin/homeventory" target="_blank"><i class="fa fa-lg fa-git-square" aria-hidden="true"></i>View code on GitHub</a></p></div>
+					    </li>
+					  </ul>
+					  <ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header"><img src="images/besteverapp.png"></div>
+					      <div class="collapsible-body"><p class="proj-descrip"><h7>Best Ever</h7><br>A social app for music lovers to debate the best song ever. Users can create entries and upload an accompanying image, as well as view individual entries and user profiles. This app was created using the MEAN stack, Express-JWT, Cloudinary, Javascript, and Bootstrap.<br>
+								<a class="proj-links" href="https://thisongisthebestever.herokuapp.com/" target="_blank"><i class="fa fa-lg fa-chrome" aria-hidden="true"></i>View Web Page</a>
+					      <a class="proj-links" href="https://github.com/kendallgoodwin/best-ever" target="_blank"><i class="fa fa-lg fa-git-square" aria-hidden="true"></i>View code on GitHub</a></p></div>
+					    </li>
+					  </ul>
+				  </div>
+				</div>
+		</div>
+	<!-- </div> -->
+
+<!-- <div id="contact">
+</div> -->
+
+	<div id="contact">
+		<div class="peace">
+			<i class="fa fa-5x fa-hand-peace-o" aria-hidden="true"></i>
+			<p class="thanks">Thanks for stopping by!</p>
+		</div>
+		<div class="contact">
+			<ul class="contact-icons">
+				<li class="icon"><a class="contact-links" href="mailto:kendall.a.goodwin@gmail.com"><i class="fa fa-3x fa-envelope-o" aria-hidden="true"></i></a></li>
+				<li class="icon"><a class="contact-links" href="http://www.github.com/kendallgoodwin"><i class="fa fa-3x fa-github" aria-hidden="true"></i></a></li>
+				<li class="icon"><a class="contact-links" href="http://www.linkedin.com/in/kendallgoodwin"><i class="fa fa-3x fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
 <!-- </div> -->
+<!-- </div> -->
+
+
+
 
 
 
